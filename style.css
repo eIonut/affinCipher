@@ -40,7 +40,7 @@ form {
   height: 600px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 80px);
 }
 
 form input {
@@ -96,7 +96,7 @@ input:focus {
 }
 
 #btn-criptare {
-  grid-row: 6;
+  grid-row: 7;
   grid-column: 1;
   width: fit-content;
   min-width: 40%;
@@ -105,7 +105,7 @@ input:focus {
 }
 
 #btn-decriptare {
-  grid-row: 6;
+  grid-row: 7;
   grid-column: 2;
   width: 40%;
   height: 40%;
@@ -143,3 +143,4 @@ button:hover {
   padding: 0px 10px;
   background: black;
 }
+
