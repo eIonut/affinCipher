@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Criptare Affin</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <form id="form">
+        <label for="alfabet">Alfabet</label>
+
+        <select name="alfabet" id="alfabet" required>
+          <option value="primul-alfabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</option>
+          <option value="alDoilea-alfabet">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+          </option>
+          <option value="alTreilea-alfabet">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.:?!()[]
+          </option>
+        </select>
+        <label for="cheie">a</label>
+        <input id="key" type="number" value=""required />
+
+        <label for="key-2">b</label>
+        <input id="key-2" type="number" value=""required />
+
+        <label for="mesajNecriptat">Mesaj necriptat</label>
+        <input id="mesajNecriptat" type="text" required />
+        <label for="mesajCriptat">Mesaj criptat</label>
+        <input id="mesajCriptat" type="text" required />
+        <label for="mesajDecriptat">Mesaj decriptat</label>
+        <input id="mesajDecriptat" type="text" required />
+        <button id="btn-criptare">Criptare</button>
+        <button id="btn-decriptare">Decriptare</button>
+      </form>
+    </section>
+  </body>
+  <script src="app.js"></script>
+</html>
